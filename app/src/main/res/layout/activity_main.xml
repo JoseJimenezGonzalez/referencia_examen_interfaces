@@ -105,6 +105,16 @@
         </ImageView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <!--
+    Cuando android:adjustViewBounds está establecido en true, la vista
+    de imagen ajusta automáticamente las dimensiones de la imagen para
+    que se ajusten proporcionalmente dentro de los límites de la vista
+    de imagen. Esto significa que la imagen se ajustará para mantener
+    su relación de aspecto original.
+    android:adjustViewBounds="true"
+    -->
+
+
     <ScrollView
         android:id="@+id/sv"
         android:layout_width="match_parent"
